@@ -1,0 +1,66 @@
+﻿<Window x:Class="VideoDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VideoDemo"
+        mc:Ignorable="d"
+        Title=" ReNamer V5.0" Height="480" Width="300" Background="#FF383838" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="icon.png">
+    <Grid HorizontalAlignment="Left" Height="460" VerticalAlignment="Top" Width="300">
+        <Grid x:Name="My_reNameGrid" Margin="30,-30,0,0" Height="430">
+            <TextBlock x:Name="My_PsText" HorizontalAlignment="Center" TextWrapping="Wrap" Text="拖拽文件进入" VerticalAlignment="Center" Margin="0,-270,0,0" Width="120" Foreground="#FFBFBFBF" FontSize="20" TextAlignment="Center"/>
+            <ListBox x:Name="My_ListBox" HorizontalAlignment="Center" Height="140" VerticalAlignment="Center" Width="200" Margin="0,-270,0,0" Foreground="#FFBFBFBF" Background="#7F1D1D1D" AllowDrop="True" DragEnter="My_ListBox_DragEnter" Drop="My_ListBox_Drop"/>
+            <TextBlock x:Name="My_TB_Seach" HorizontalAlignment="Center" TextWrapping="Wrap" Text="寻找" VerticalAlignment="Center" Margin="-100,-90,0,0" Width="50" Foreground="#FFBFBFBF" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="-100,-30,0,0" Width="50" Foreground="#FFBFBFBF" TextAlignment="Center"><Run Text="替换"/><Run Text="为"/></TextBlock>
+            <TextBox x:Name="My_oldText" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Margin="0,-90,-80,0" Background="#FF1D1D1D" Foreground="#FFBFBFBF"/>
+            <TextBox x:Name="My_newText" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Margin="0,-30,-80,0" Background="#FF1D1D1D" Foreground="#FFBFBFBF"/>
+            <Button x:Name="ReplaceButton" Content="批量替换关键词" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Click="ReplaceButton_OnClick" Margin="0,90,0,0"/>
+            <TextBox x:Name="My_RenameText" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Margin="0,150,-80,0" Background="#FF1D1D1D" Foreground="#FFBFBFBF"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="重命名为" VerticalAlignment="Center" Margin="-100,150,0,0" Width="50" Foreground="#FFBFBFBF" TextAlignment="Center"/>
+            <Button x:Name="RenameButton" Content="批量重命名" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="0,270,0,0" Click="RenameButton_OnClick"/>
+            <TextBox x:Name="My_AddText" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Margin="0,330,-80,0" Background="#FF1D1D1D" Foreground="#FFBFBFBF"/>
+            <Button x:Name="AddStringButton" Content="插入命名（默认从头部）" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="0,390,0,0" Click="AddStringButton_OnClick"/>
+            <CheckBox x:Name="My_CheckBox" Content="从尾部" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-120,330,0,0" Foreground="#FFBFBFBF"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="本软件永久免费禁止商用" VerticalAlignment="Center" Margin="0,435,0,0" Width="120" Foreground="#FFBFBFBF" FontSize="10" TextAlignment="Center"/>
+            <TextBox x:Name="My_R_StarIndex" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" Margin="80,210,0,0" Background="#FF1D1D1D" Foreground="#FFBFBFBF" Text="0" TextAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="-120,210,0,0" Width="80" Foreground="#FFBFBFBF" TextAlignment="Center"><Run Text="结尾"/><Run Text="序号起点"/></TextBlock>
+            <CheckBox x:Name="My_C_Regex" Content="使用正则表达式" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,30,0,0" Foreground="#FFBFBFBF"/>
+        </Grid>
+        <Grid x:Name="My_reTextrueGrid" HorizontalAlignment="Left" Height="430" VerticalAlignment="Top" Width="270" Margin="30,0,0,0" Visibility="Hidden">
+            <TextBlock x:Name="My_PsText_T" HorizontalAlignment="Center" TextWrapping="Wrap" Text="拖拽图片进入" VerticalAlignment="Center" Margin="0,-270,0,0" Width="120" Foreground="#FFBFBFBF" FontSize="20" TextAlignment="Center"/>
+            <ListBox x:Name="My_ListBox_T" HorizontalAlignment="Center" Height="140" VerticalAlignment="Center" Width="200" Margin="0,-270,0,0" Foreground="#FFBFBFBF" Background="#7F1D1D1D" AllowDrop="True" DragEnter="My_ListBox_T_DragEnter" Drop="My_ListBox_T_Drop"/>
+            <ComboBox x:Name="My_ComBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" Margin="80,-90,0,0" Background="Black" Foreground="#FF2A2A2A" BorderBrush="#FF2A2A2A">
+                <ComboBoxItem Content=".jpg"/>
+                <ComboBoxItem Content=".png"/>
+                <ComboBoxItem Content=".tiff"/>
+                <ComboBoxItem Content=".wmf"/>
+                <ComboBoxItem Content=".emf"/>
+                <ComboBoxItem Content=".bmp"/>
+                <ComboBoxItem Content=".gif"/>
+                <ComboBoxItem Content=".ico"/>
+            </ComboBox>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="转换为：" VerticalAlignment="Center" Margin="-120,-90,0,0" Width="120" Foreground="#FFBFBFBF" TextAlignment="Center"/>
+            <Button x:Name="My_B_ConverImage" Content="批量转换格式" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="0,-30,0,0" Click="My_B_ConverImage_Click"/>
+            <TextBox x:Name="My_T_ParseX" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" VerticalAlignment="Center" Width="50" Margin="11,30,0,0" Background="#FF1D1D1D" Foreground="#FFBFBFBF"/>
+            <TextBox x:Name="My_T_ParseY" HorizontalAlignment="Center" Height="25" TextWrapping="Wrap" VerticalAlignment="Center" Width="50" Margin="150,30,0,0" Background="#FF1D1D1D" Foreground="#FFBFBFBF"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="x" VerticalAlignment="Center" Margin="80,30,0,0" Width="15" Foreground="#FFBFBFBF" TextAlignment="Center"/>
+            <Button x:Name="My_B_ReReslutation" Content="批量转换分辨率" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="0,90,0,0" Click="My_B_ReReslutation_Click"/>
+            <Button x:Name="My_B_Gray" Content="批量转换为灰度图" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="0,150,0,0" Click="My_B_Gray_Click"/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="-120,30,0,0" Width="120" Foreground="#FFBFBFBF" TextAlignment="Center"><Run Text="分辨率"/><Run Text="："/></TextBlock>
+            <Button x:Name="My_B_Blur" Content="批量模糊（处理慢，只适合小图标）" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="0,270,0,0" Click="My_B_Blur_Click" Cursor=""/>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="-120,210,0,0" Width="120" Foreground="#FFBFBFBF" TextAlignment="Center" Text="模糊强度："/>
+            <Slider x:Name="My_T_BlurSlider" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Margin="80,210,0,0" Minimum="1" Value="1" Foreground="Gray"/>
+            <Button x:Name="My_B_Invert" Content="批量反色" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="25" Background="#FF595959" Foreground="#FFBFBFBF" Margin="0,370,0,0" Cursor="" Click="My_B_Invert_Click"/>
+            <CheckBox x:Name="My_T_CB_R" Content="R" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-100,320,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_G" Content="G" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,320,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+            <CheckBox x:Name="My_T_CB_B" Content="B" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="100,320,0,0" Foreground="#FFBFBFBF" IsChecked="True"/>
+        </Grid>
+        <Rectangle Fill="#FF232323" HorizontalAlignment="Left" Height="480" Margin="0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="My_UI_ReN" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" BorderBrush="#00707070" Click="My_UI_ReN_Click" Background="#FF383838" Margin="0,10,0,0">
+            <Image x:Name="My_UI_ReN_T" Height="30" Width="30" Source="Icon_Undo1.png" Margin="0"/>
+        </Button>
+        <Button x:Name="My_UI_ReT" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="40" BorderBrush="#00707070" Margin="0,60,0,0" Click="My_UI_ReT_Click" Background="#FF383838">
+            <Image x:Name="My_UI_ReT_T" Height="30" Width="30" Source="Icon_Eyes.png"/>
+        </Button>
+    </Grid>
+</Window>

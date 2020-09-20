@@ -1,0 +1,17 @@
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\VideoDemo.exe.config
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\VideoDemo.exe
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\VideoDemo.pdb
+D:\Program Project\VS\WPF\ReNamer\ReNamer\bin\Debug\System.Drawing.Common.dll
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csprojAssemblyReference.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\MainWindow.g.cs
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\App.g.cs
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.lref
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\MainWindow.baml
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.g.resources
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.Properties.Resources.resources
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.GenerateResource.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CoreCompileInputs.cache
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CopyComplete
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.exe
+D:\Program Project\VS\WPF\ReNamer\ReNamer\obj\Debug\VideoDemo.pdb

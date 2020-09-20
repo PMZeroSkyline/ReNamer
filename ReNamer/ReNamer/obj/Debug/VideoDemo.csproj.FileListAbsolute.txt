@@ -1,0 +1,16 @@
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\bin\Debug\VideoDemo.exe.config
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\bin\Debug\VideoDemo.exe
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\bin\Debug\VideoDemo.pdb
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\MainWindow.g.cs
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\App.g.cs
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo_MarkupCompile.cache
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo_MarkupCompile.lref
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\MainWindow.baml
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo.g.resources
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo.Properties.Resources.resources
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo.csproj.GenerateResource.cache
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo.csproj.CoreCompileInputs.cache
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo.exe
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo.pdb
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\bin\Debug\System.Drawing.Common.dll
+D:\Program Project\VS\WPF\VideoDemo\VideoDemo\obj\Debug\VideoDemo.csproj.CopyComplete
