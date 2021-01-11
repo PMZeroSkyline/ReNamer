@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{26FAEDE3-BF7D-4BAF-A63F-82C27038B718}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>VideoDemo</RootNamespace>
-    <AssemblyName>VideoDemo</AssemblyName>
+    <RootNamespace>ReNamer</RootNamespace>
+    <AssemblyName>ReNamer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -110,24 +110,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icon.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon_Clear.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon_Undo_2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon_Eyes.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon_Eyes1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon_Undo1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Icon_Undo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

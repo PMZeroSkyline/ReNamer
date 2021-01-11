@@ -1,0 +1,17 @@
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Release\System.Drawing.Common.dll
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.csprojAssemblyReference.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\MainWindow.g.cs
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\App.g.cs
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\MainWindow.baml
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.csproj.GenerateResource.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.csproj.CoreCompileInputs.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.csproj.CopyComplete
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Release\ReNamer.exe.config
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Release\ReNamer.exe
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Release\ReNamer.pdb
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer_MarkupCompile.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer_MarkupCompile.lref
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.g.resources
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.Properties.Resources.resources
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.exe
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Release\ReNamer.pdb

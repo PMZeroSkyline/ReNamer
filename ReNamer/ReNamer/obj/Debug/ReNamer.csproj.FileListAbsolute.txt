@@ -32,3 +32,20 @@ D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.GenerateResource
 D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CoreCompileInputs.cache
 D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CopyComplete
 D:\Program Project\Git\ReNamer\ReNamer\obj\Debug\VideoDemo.exe
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csprojAssemblyReference.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\MainWindow.g.cs
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\App.g.cs
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\VideoDemo_MarkupCompile.lref
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\VideoDemo.exe
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\VideoDemo.pdb
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\VideoDemo.exe.config
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\VideoDemo.exe
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\VideoDemo.pdb
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\bin\Debug\System.Drawing.Common.dll
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\MainWindow.baml
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\VideoDemo.g.resources
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\VideoDemo.Properties.Resources.resources
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.GenerateResource.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CoreCompileInputs.cache
+E:\GitTemp\Temp_00\WPF_ReNamer\ReNamer\ReNamer\obj\Debug\ReNamer.csproj.CopyComplete
