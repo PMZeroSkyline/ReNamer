@@ -1,4 +1,6 @@
-免费下载：https://github.com/PMZeroSkyline/WPF_ReNamer/raw/master/ReNamer/ReNamer/bin/Release/ReNamer.exe
+ReNamer （批量文件命名替换器 免费使用）
+
+点此下载：https://github.com/PMZeroSkyline/WPF_ReNamer/raw/master/ReNamer/ReNamer/bin/Release/ReNamer.exe
 
 所支持功能：
   1.文件批量关键字替换
