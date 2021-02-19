@@ -2,9 +2,9 @@
 
   *一款轻量级批量文件名称修改器*
 
-    - ![ReNamer](1.JPG)
+    - ![ReNamer](1.jpg)
 
-    - ![ReNamer](2.JPG)
+    - ![ReNamer](2.jpg)
 
 ### 所支持功能：
 
