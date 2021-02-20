@@ -1,18 +1,20 @@
-- # [下载ReNamer](https://github.com/PMZeroSkyline/WPF_ReNamer/raw/master/ReNamer/ReNamer/bin/Release/ReNamer.exe)
+# ReNmaer
 
+  
+  - ![ReNamer](1.jpg)
 
-    - ![ReNamer](1.jpg)
+  - ![ReNamer](2.jpg)
 
-    - ![ReNamer](2.jpg)
+### 文件批量名称处理器：
 
-### 所支持功能：
-
-  1. 批量寻找替换关键字 支持正则表达式
+  1. 批量寻找替换名称关键字 支持正则表达式
 
   2. 批量重命名 支持自定义结尾序列号
 
-  3. 批量从头部或尾部插入命名
+  3. 批量从文件头部或尾部插入命名
 
+# [点我免费下载（Window X64）](https://github.com/PMZeroSkyline/WPF_ReNamer/raw/master/ReNamer/ReNamer/bin/Release/ReNamer.exe)
 
+*本软件为一人开发 开源在GitHub 任何人都可以免费使用 由 guzhang0@gamil.com 提供支持 欢迎错误反馈 欢迎到GitHub下载我的其它软件*
 
-*BUG反馈 ： guzhang0@gmail.com*
+![ReNamer](3.jpg)
