@@ -1,7 +1,6 @@
-![ReNamer](icon.png)
-# ![ReNamer](icon.ico)  ReNmaer
+# ![ReNamer](icon.png)  ReNmaer
   
-
+# ![ReNamer](icon.ico)  软件界面：
 
   - ![ReNamer](1.jpg)
 
@@ -15,8 +14,12 @@
 
   3. 批量从文件头部或尾部插入命名
 
-# [ ![ReNamer](icon.ico) 点我免费下载（适用于Window系统电脑）](https://github.com/PMZeroSkyline/WPF_ReNamer/raw/master/ReNamer/ReNamer/bin/Release/ReNamer.exe)
+# ![ReNamer](icon.ico)  下载：
 
-*本软件为一人开发 开源在GitHub 任何人都可以免费使用 没有广告 由 guzhang0@gamil.com 提供支持 欢迎错误反馈 欢迎到我的[ GitHub（点我进入） ](https://github.com/PMZeroSkyline)下载我的其它软件*
+## [点我免费下载（适用于Window系统电脑）](https://github.com/PMZeroSkyline/WPF_ReNamer/raw/master/ReNamer/ReNamer/bin/Release/ReNamer.exe)
+
+### *本软件为一人开发 任何人都可以免费使用 没有广告 以开源 [点我下载我的其它免费应用](https://pmzeroskyline.github.io/FreeApps/)*
+
+由 guzhang0@gamil.com 提供支持 欢迎错误反馈
 
 ![ReNamer](3.jpg)
