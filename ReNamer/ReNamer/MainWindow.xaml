@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VideoDemo"
         mc:Ignorable="d"
-        Title=" ReNamer" Height="380" Width="270" Background="#FF454545" WindowStyle="ToolWindow" ResizeMode="NoResize" Icon="icon.png" HorizontalAlignment="Left" VerticalAlignment="Top">
+        Title=" ReNamer" Height="380" Width="270" Background="#FF454545" ResizeMode="NoResize" Icon="icon.png" HorizontalAlignment="Left" VerticalAlignment="Top">
     <ScrollViewer HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Width="255">
         <Grid x:Name="My_reNameGrid" Margin="0" Height="700" Width="230" HorizontalAlignment="Left" VerticalAlignment="Top">
             <TextBlock x:Name="My_PsText" HorizontalAlignment="Center" TextWrapping="Wrap" Text="拖拽文件进入" VerticalAlignment="Top" Margin="0,60,0,0" Width="120" Foreground="#FFBFBFBF" TextAlignment="Center"/>
