@@ -1,5 +1,5 @@
 ![ReNamer](icon.png)
-# ![ReNamer](https://raw.githubusercontent.com/PMZeroSkyline/ReNamer/master/ReNamer/ReNamer/icon.ico)  ReNmaer
+# ![ReNamer](icon.ico)  ReNmaer
   
 
 
